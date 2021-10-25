@@ -1,0 +1,148 @@
+
+html {
+    background-image: url("https://i.pinimg.com/originals/36/ec/89/36ec8964646d9959b4ad3e258f97da04.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.cool-characters {
+    position: absolute;
+    background-color: rgb(10, 10, 10);
+    font-family: 'Press Start 2P', cursive;
+    color: silver;
+    font-size: 1.6rem;
+    top: 0rem;
+    left: 16.7rem;
+    width: 39.6rem;
+    height: 12.4rem;
+}
+.team-urameshi {
+    position: absolute;
+    border: inset darkslateblue;
+    background-image: url(https://closetfullofnotebooks.files.wordpress.com/2019/10/makai.png?w=1100);
+    bottom: 12.5rem;
+    left: 0rem;
+    height: 5.6rem;
+    width: 16.3rem;
+}
+.yyh {
+    background-image: url();
+    position: absolute;
+    bottom: 10.5rem;
+    left: -2rem;
+    height: 10rem;
+}
+.astro-boy{
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+
+}
+.puff {
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+}
+.spike {
+    position: fixed;
+    top: 0rem;
+    right: 0rem;
+    z-index: 3;
+}
+.yoko-kurama {
+    position: absolute;
+    bottom: 0rem;
+    left: 0rem;
+    width: 16.7rem;
+}
+.link {
+    position: absolute;
+    height: 9rem;
+    left: 33rem;
+    top: 3.6rem;
+}
+.bomb-omb {
+    position: absolute;
+    height: 12rem;
+   top: 3.2rem;
+   left: 40rem;
+}
+.flcl {
+    position: absolute;
+   height: 9.2rem;
+   top: 3.2rem;
+   left: 16.7rem;
+}
+.pika {
+    position: absolute;
+    height: 6rem;
+    right: 10rem;
+    bottom: 8.5rem;
+}
+.mewtwo {
+    position: absolute;
+    height: 7rem;
+    right: 1rem;
+    bottom: 11.5rem;
+}
+.pokemon {
+    background-image: url(https://ssb.wiki.gallery/images/thumb/8/8a/PSTAD-NRML1-SSBM.png/300px-PSTAD-NRML1-SSBM.png);
+    position: absolute;
+    border: dashed gold;
+    width: 19.6rem;
+    height: 20rem;
+    bottom: 0rem;
+    right: 0rem;
+    z-index: 3;
+} 
+.email {
+    position: absolute;
+    width: 10rem;
+    right: 9.5rem;
+    bottom: 0rem;
+} 
+.city {
+    border: ridge hotpink;
+    background-image: url(https://i.pinimg.com/736x/57/45/eb/5745ebbc8380e362370c3a2caffbc03f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 20rem;
+    width: 13.4rem;
+    right: 20rem;
+    bottom: 0rem;
+    z-index: 4;
+}
+.guardians {
+    position: absolute;
+    width: 10rem;
+    bottom: 5rem;
+    left: 1.5rem;
+}
+.sailor-logo {
+    width: 13rem;
+}
+.p-thieves {
+    position: absolute;
+    border-style: groove;
+    border-color: crimson;
+    background-image: url(https://art.ngfiles.com/images/1604000/1604253_ioruko_persona-5-nintendo-game-boy-edition.gif?f1611355748);
+    height: 14rem;
+    width: 16.3rem;
+    left: 0;
+    bottom: 18.5rem;
+}
+.text-box {
+    position: absolute;
+    border: ridge peachpuff;
+    background-color: rgb(0, 0,0, .5);
+    width: 39.2rem;
+    height: 32.5rem;
+    left: 16.7rem;
+    bottom: 0;
+    color: silver;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 1.2rem;
+    z-index: 2;
+}
