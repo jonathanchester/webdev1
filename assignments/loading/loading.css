@@ -1,0 +1,22 @@
+.load {
+    height: 10rem;
+    width: 2rem;
+    margin: 1rem;
+    background-color: green;
+    transform: scale(0, 1);
+    animation: expand 3s infinite alternate, background 1s;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+  }
+  @keyframes expand {
+     
+    0% { 
+      transform: scale(0, 1);
+    }
+    50% {
+      transform: scale(88, 1);
+    }
+    100% {
+      transform: scale(88, 1);
+      background: darkred;
+  }  
