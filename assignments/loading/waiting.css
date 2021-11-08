@@ -2,20 +2,20 @@ html{
     height: 100vh;
     display: grid;
     place-items: center;
-    background-color: #03F;
+    background-color: crimson;
   
   }
   .wait {
     height: 1rem;
     width: 5rem;
-    background-color: dodgerblue;
+    background-color: black;
     animation: wait 3s infinite;
     animation-duration: 3s;
   }
   .wait-mid {
     height: .75rem;
     width: 5rem;
-    background-color: #03F;
+    background-color: white;
     animation: wait-mid 3s infinite;
   }
   
