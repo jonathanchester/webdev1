@@ -8,7 +8,6 @@ body {
   height:.5rem;
   width: .5rem;
   margin: 1rem;
-  
   transform: scale(0, 1);
   animation: expand 5s;
   animation-fill-mode: forwards;
@@ -25,19 +24,16 @@ body {
     transform: scale(0, 1);
     background-color: whitesmoke;
     margin: 1rem;
-    
   }  
   20% {
     transform: scale(50, 1);
     background-color: whitesmoke;
     margin: 1rem;
-    
   }
   70% {
     transform: scale(50, 1);
     background-color: whitesmoke;
     margin: 1rem;
-    
   }
   80% {
     transform: scale(50, 1);
@@ -48,13 +44,11 @@ body {
     transform: scale(50, 1);
     background-color: whitesmoke;
     margin: 1rem;
-
   }
   95% {
     transform: scale(50, 1);
     background-color: whitesmoke;
     margin: 1rem;
-  
   }
   98% {
     transform: scale(50, 1);
