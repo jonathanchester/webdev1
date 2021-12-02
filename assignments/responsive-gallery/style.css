@@ -7,36 +7,37 @@ body {
     background: whitesmoke;
 }
 .content {
-    margin-left: 50px; 
-    padding: 0.5em;
+    
+    padding: 2.5em;
 }
 
 header {
-    text-align: center;
     margin: 2em 0;
 }
+
+
+
 .main-menu {
     display: flex;
-    justify-content: space-evenly;
-    /* flex-wrap: wrap; */
+    justify-content: flex-end;
+    gap: .5em;
+    flex-wrap: wrap;
+     
 }
 
 .main-menu a {
     margin: 0 2em;
+    color: black;
 }
 
 .site-title {
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 
 main {
 
 }
 
-.gallery {
-    
-  
-}
 .grid-container {
     display: grid;
     height: 100vh;
@@ -51,7 +52,7 @@ main {
 }
 .hover img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: 100%;
 }
 .overlay {
@@ -84,34 +85,5 @@ main {
 @media (max-width: 500px) {
     .grid-container {
         grid-template-columns: 1fr;
-    }
-}
-
-.social-menu {
-    background: white;
-    border: 2px solid black;
-    height: 100%;
-    width: 50px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: fixed;
-    top: 0;
-}
-
-.social-menu img {
-    max-width: 30px;
-}
-
-@media {max-width: 400px;} {
-    .social-menu {
-        position: fixed;
-        bottom: 0;
-        flex-direction: row;
-        height: unset;
-        width: 100%;
-        padding: .5em;
     }
 }
