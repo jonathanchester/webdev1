@@ -6,16 +6,13 @@ body {
     font-family: 'Outfit', sans-serif;
     background: whitesmoke;
 }
-.content {
-    
+.content { 
     padding: 2.5em;
 }
 
 header {
     margin: 2em 0;
 }
-
-
 
 .main-menu {
     display: flex;
@@ -34,20 +31,13 @@ header {
     margin-bottom: .5em;
 }
 
-main {
-
-}
-
 .grid-container {
     display: grid;
     height: 100vh;
     gap: .25em;
     grid-template-columns: 1fr 1fr 1fr;
 }
-.hover {
-    
-    background: cornflowerblue;
-    
+.hover {   
     position: relative;
 }
 .hover img {
@@ -56,7 +46,7 @@ main {
     height: 100%;
 }
 .overlay {
-    background: whitesmoke;
+    background: rgb(245, 245, 245, .80);
     position: absolute;
     display: flex;
     
@@ -84,6 +74,15 @@ main {
 
 @media (max-width: 500px) {
     .grid-container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr;  
+    }
+    .main-menu {
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+    }
+}
+@media (max-width: 470px) {
+    .site-title {
+        text-align: center;
     }
 }
