@@ -1,22 +1,29 @@
 * {margin: 0; padding: 0; box-sizing: border-box;}
 
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
 header {
-    background: gray;
-    padding: 1.5em;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 1%, rgba(128,128,128,1) 100%);
+text-align: center;
+padding: 2em;
+}
+
+nav {
+margin-top: .5em;
+}
+
+a {
+color: whitesmoke;
+padding: 2em;
+}
+
+.menu {
     display: flex;
     justify-content: space-evenly;
 }
-
-.logo {
- align-self: flex-start;
-}
-
-.menu-container {
-    display: flex;
-    justify-content: flex-end;
-    gap: .5em;
-    flex-wrap: wrap;
-} 
 
 .top-text {
 animation: intro 2s forwards;
